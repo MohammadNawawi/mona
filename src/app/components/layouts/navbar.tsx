@@ -10,10 +10,11 @@ export default function Navbar() {
         <a href="/">
           <Image
             alt=""
-            src="https://www.svgrepo.com/show/499831/target.svg"
+            // src="https://www.svgrepo.com/show/499831/target.svg"
+            src="/mona.svg"
             loading="lazy"
-            width="32"
-            height="32"
+            width="20"
+            height="20"
           />
         </a>
       </div>
@@ -36,7 +37,7 @@ export default function Navbar() {
           </Link>
         </ul>
         {/* <div className="flex-grow"></div> */}
-        <div className="flex">
+        <div className="flex ml-2">
           <div className="hidden items-center justify-center gap-6 md:flex">
             <a
               href="#"
@@ -89,14 +90,14 @@ export default function Navbar() {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth={2}
             stroke="currentColor"
             aria-hidden="true"
-            className="h-6 w-auto text-slate-900"
+            className="h-6 w-auto dark:text-violet-500"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
             ></path>
           </svg>
