@@ -37,7 +37,7 @@ export default function Home() {
               </div>
               <button
                 type="button"
-                className="bg-violet-500 rounded-lg px-10 py-2 mt-6"
+                className="bg-violet-500 rounded-lg px-10 py-2 mt-6  transition-all duration-[2500ms] ease-out hover:bg-gradient-to-r from-indigo-500 to-violet-500"
                 data-te-ripple-init
                 data-te-ripple-color="light"
               >
@@ -49,7 +49,17 @@ export default function Home() {
 
         {/* </div> */}
       </header>
-      <section className="w-screen h-screen bg-red-600"></section>
+      <section className="flex w-screen h-screen dark:bg-[#040404] items-center justify-center">
+        <div className="text-center">
+          <h1>Under Development.</h1>
+          {"\n"}
+          <h1>Will be available as soon as possible</h1>
+          <p>
+            Thank you so much for visiting my own website{" "}
+            <span className="text-pink-500">&#10084;</span>{" "}
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
