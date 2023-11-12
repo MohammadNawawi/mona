@@ -5,8 +5,8 @@ import { Inter } from "next/font/google";
 
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+import Navbar from "@/components/layouts/navbar";
 // import { SessionProvider } from "next-auth/react";
-import Navbar from "./components/layouts/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
