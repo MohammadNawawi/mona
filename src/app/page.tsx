@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     // <main classNameName="flex min-h-screen flex-col items-center justify-between p-24">
-    <main>
+    <main className="overflow-x-hidden">
       {/* <section classNameName="w-screen h-screen bg-hero bg-no-repeat bg-cover bg-center bg-fixed"></section> */}
       <header className="h-full min-w-fit bg-cover justify-center align-middle">
         {/* <div classNameName="absolute"> */}
@@ -49,7 +49,7 @@ export default function Home() {
 
         {/* </div> */}
       </header>
-      <section className="flex w-screen h-screen dark:bg-[#040404] items-center justify-center">
+      <section className="flex w-screen h-screen dark:bg-neutral-950 items-center justify-center">
         <div className="text-center">
           <h1>Under Development.</h1>
           {"\n"}
