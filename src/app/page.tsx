@@ -3,14 +3,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    // <main classNameName="flex min-h-screen flex-col items-center justify-between p-24">
     <main className="overflow-x-hidden">
-      {/* <section classNameName="w-screen h-screen bg-hero bg-no-repeat bg-cover bg-center bg-fixed"></section> */}
       <header className="h-full min-w-fit bg-cover justify-center align-middle">
-        {/* <div classNameName="absolute"> */}
         <div className="flex flex-wrap justify-center align-middle items-center ">
           <Image
-            // classNameName="h-full min-w-fit bg-center object-center "
             className="opacity-50"
             alt="hero background"
             width={800}
@@ -26,9 +22,6 @@ export default function Home() {
                 <h1 className="lg:text-6xl text-3xl font-bold">
                   Dam*, you worked hard.
                 </h1>
-                {/* <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">
-                  Hello World
-                </h1> */}
                 <p className="lg:text-lg text-sm font-medium dark:text-slate-50 mt-4">
                   “People don’t decide their futures, they decides their habits
                   <br />
@@ -46,8 +39,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* </div> */}
       </header>
       <section className="flex w-screen h-screen dark:bg-neutral-950 items-center justify-center">
         <div className="text-center">
