@@ -12,6 +12,8 @@ import {
 export default function Navbar() {
   const pathname = usePathname();
 
+  console.log(pathname);
+
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
@@ -40,7 +42,7 @@ export default function Navbar() {
         <ul className="hidden items-center justify-center gap-6 md:flex">
           <Link href="/code">
             <li
-              className={`font-dm text-sm font-medium dark:text-white hover:text-violet-500 ${
+              className={`font-dm text-sm font-medium hover:text-violet-500 ${
                 pathname === "/code" ? "text-violet-500" : ""
               }`}
             >
@@ -48,12 +50,20 @@ export default function Navbar() {
             </li>
           </Link>
           <Link href="/series">
-            <li className="font-dm text-sm font-medium dark:text-white hover:text-violet-500">
+            <li
+              className={`font-dm text-sm font-medium hover:text-violet-500 ${
+                pathname === "/series" ? "text-violet-500" : ""
+              }`}
+            >
               Series
             </li>
           </Link>
           <Link href="/blog">
-            <li className="font-dm text-sm font-medium dark:text-white hover:text-violet-500">
+            <li
+              className={`font-dm text-sm font-medium hover:text-violet-500 ${
+                pathname === "/blog" ? "text-violet-500" : ""
+              }`}
+            >
               Blog
             </li>
           </Link>
