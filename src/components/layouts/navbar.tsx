@@ -12,8 +12,6 @@ import {
 export default function Navbar() {
   const pathname = usePathname();
 
-  console.log(pathname);
-
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 

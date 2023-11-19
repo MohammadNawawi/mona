@@ -26,7 +26,8 @@ export default function RootLayout({
   const pathname = usePathname();
   return (
     <html lang="en">
-      <body className={inter.className}>
+      {/* <body className={inter.className}> */}
+      <body className={`inter.className bg-white dark:bg-black`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {/* <SessionProvider> */}
           {!disableNavbar.includes(pathname) && <Navbar />}
