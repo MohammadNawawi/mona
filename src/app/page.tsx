@@ -12,6 +12,7 @@ export default function Home() {
             width={800}
             height={800}
             src="/images/hero_bg.png"
+            priority={true}
           />
           <div className="absolute flex flex-wrap justify-center mb-10">
             <div className="text-center text-black dark:text-white">
@@ -23,7 +24,9 @@ export default function Home() {
                   Dam*, you worked hard.
                 </h1>
                 <p className="lg:text-lg text-sm font-medium dark:text-slate-50 mt-4">
-                  “People don’t decide their futures, they decides their habits
+                  “People don’t decide their futures,
+                  <br className="lg:hidden md:hidden xl:hidden" /> they decides
+                  their habits
                   <br />
                   and their habits decide their futures.”{" "}
                 </p>
