@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import Navbar from "@/components/layouts/navbar";
 import { AppProps } from "next/app";
 import { ThemeProvider } from "@/components/theme/theme-provider";
+import Footer from "@/components/layouts/footer";
 // import { SessionProvider } from "next-auth/react";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -34,6 +35,7 @@ export default function RootLayout({
 
           {children}
           {/* </SessionProvider> */}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
