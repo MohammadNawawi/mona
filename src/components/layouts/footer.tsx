@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-neutral-50 ">
-      <div className="mx-auto max-w-6xl gap-8 px-6 transition-all duration-200 ease-in-out lg:px-12justify-between grid lg:grid-cols-3 py-10">
+    <footer className="w-full bg-neutral-50 dark:bg-black">
+      <div className="mx-auto max-w-6xl gap-8 px-6 transition-all duration-200 ease-in-out lg:px-12 justify-between grid lg:grid-cols-3 py-10">
         <div className="">
           <Image
             src="/mona.svg"
