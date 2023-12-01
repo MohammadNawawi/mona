@@ -199,7 +199,7 @@ export default function Home() {
                   <p className="line-clamp-2 text-sm">
                     In a realm of constant evolution, a short-haired individual
                     stands out, draped in a warm coat bearing the emblematic
-                    "New Decree" logo—an ambiguous happy face.
+                    &quot;New Decree&quot; logo—an ambiguous happy face.
                   </p>
                 </div>
               </article>
